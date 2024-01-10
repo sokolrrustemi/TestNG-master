@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit">
+
+    <test name="myTest1">
+        <parameter name="aaranacakText" value="UserData"></parameter>
+        <parameter name="browserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="day05._04_Soru_CrossBrowser"> </class>
+        </classes>
+
+    </test>
+
+    <test name="myTest2">
+        <parameter name="aaranacakText" value="UserData"></parameter>
+        <parameter name="browserTipi" value="default"></parameter>
+
+        <classes>
+            <class name="day05._04_Soru_CrossBrowser"> </class>
+        </classes>
+
+    </test>
+
+
+</suite>
+

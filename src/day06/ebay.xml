@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit" parallel="tests" thread-count="2">
+
+    <test name="myTest1">
+        <parameter name="browserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="day06.ebay"> </class>
+        </classes>
+
+    </test>
+
+
+
+</suite>

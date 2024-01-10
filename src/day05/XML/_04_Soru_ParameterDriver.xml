@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit">
+
+    <test name="myTest1">
+        <parameter name="aaranacakText" value="UserData"></parameter>
+
+        <classes>
+            <class name="day05._04_Soru_ParameterDriver"> </class>
+
+        </classes>
+    </test>
+
+
+</suite>
+
